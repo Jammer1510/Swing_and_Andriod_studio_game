@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8C9EFF"
+    tools:context=".CreditsScreen">
+
+    <ImageButton
+        android:id="@+id/creditsUnmuteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/backgroundColor"
+        android:contentDescription="@string/mute_audio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.858"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/creditsMusicButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/backgroundColor"
+        android:contentDescription="@string/unmute_audio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/creditsName4"
+        android:layout_width="393dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/stick"
+        android:text="@string/creditName4"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.750" />
+
+    <TextView
+        android:id="@+id/creditsName3"
+        android:layout_width="393dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/stick"
+        android:text="@string/creditName3"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.600" />
+
+    <TextView
+        android:id="@+id/creditsName2"
+        android:layout_width="393dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/stick"
+        android:text="@string/creditName2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.450" />
+
+    <TextView
+        android:id="@+id/creditsTitleLabel"
+        android:layout_width="138dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/stick"
+        android:text="@string/creditsLabel"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FFBB33"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/creditsName1"
+        android:layout_width="393dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/stick"
+        android:text="@string/creditName1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.300" />
+</androidx.constraintlayout.widget.ConstraintLayout>
