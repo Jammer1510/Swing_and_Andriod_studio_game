@@ -1,0 +1,4 @@
+ABC 100
+DEF 90
+GHI 40
+JKL 0
